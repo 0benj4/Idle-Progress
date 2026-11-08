@@ -1,0 +1,4 @@
+#!/bin/sh
+# Launcher for Idle Progress (idle-progress). Works from anywhere, also through a symlink.
+here="$(dirname "$(readlink -f "$0")")"
+exec python3 "$here/src/menu.py" "$@"

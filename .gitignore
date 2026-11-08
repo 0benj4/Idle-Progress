@@ -1,0 +1,12 @@
+# Player saves are personal, never commit them (the game recreates the folder)
+saves/
+save.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Local backups and editor leftovers
+*.bak
+*~
+.DS_Store

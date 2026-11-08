@@ -1,0 +1,2 @@
+# Only needed on Windows; the game also installs it by itself on the first run.
+windows-curses; sys_platform == "win32"
